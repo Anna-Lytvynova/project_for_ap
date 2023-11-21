@@ -1,0 +1,76 @@
+#navigation{
+    width: 200px;
+    height: 172px;
+    background-color: #EFEEFF;
+    flex-shrink: 0;
+    border-radius: 12px;
+    margin: 44px 0 0 44px;
+}
+p, a{
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+}
+.icon{
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+}
+.tree_line{
+    padding-top: 28px;
+}
+.main_page, .chat_page{
+    margin-top: 28px;
+}
+/* .name{
+    color: black;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    font-style: normal;
+    margin-left: 64px;
+} */
+#chats{
+    width: 200px;
+    height: 698px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #AFA9FE;
+    margin: 24px 0 0 44px;
+}
+.chats_style{
+    width: 184px;
+    height: 62px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: #C2BDFF;
+    margin-left: 8px;
+    margin-top: 3px;
+}
+#online{
+    width: 1207px;
+    height: 220px;
+    flex-shrink: 0;
+    background: #C2BDFF;
+    margin: 20px 33px 0 272px;
+    display: flex;
+    flex-direction: row;
+}
+.online_img{
+    margin: 68px 0 0 39px;
+}
+.online_text{
+    width: 139px;
+    height: 25px;
+    flex-shrink: 0;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 28px;
+    margin-left: 22px;
+}
+.online_pmg{
+    margin: 35px ;
+}
+.premium{
+    top: 0;
+}
